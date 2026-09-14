@@ -1,0 +1,24 @@
+# Ignore all files by default to keep source code private
+*
+
+# Allow repository root compiled executables, README, logo, icons, license
+!.gitignore
+!README.md
+!motion_logo.png
+!app.ico
+!LICENSE
+!AstriaMotion-Installer.exe
+!AstriaMotion-Portable.exe
+
+# Allow dist pre-compiled binaries & runtime resources
+!dist/
+!dist/AstriaMotion-Installer.exe
+!dist/AstriaMotion-Portable.exe
+!dist/config.json
+!dist/library.json
+!dist/wallpapers/
+!dist/wallpapers/local-lord-shadow.mp4
+
+# Allow resource icon
+!resources/
+!resources/app.ico
